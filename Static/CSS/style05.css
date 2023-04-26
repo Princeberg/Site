@@ -1,0 +1,69 @@
+body {
+background-color: white;
+}
+
+.content {
+
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-weight: bold;
+        font-size: 28px;
+        border: 0px solid white;
+        margin-top: 250px;
+        position: relative;
+        text-align: center;
+        height: 100%;
+        font-family: Merriweather , display;
+        margin-top:0px;
+      }
+      .column {
+        float: center;
+        width: 33.3%;
+        margin-left: 450px;
+        margin-top: 50px;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+        font-family: Merriweather , display;
+      }
+      .container {
+        padding: 0 16px;
+        font-family: Merriweather , display;
+        color: black;
+      }
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        font-family: Merriweather , display;
+
+      }
+
+      .title {
+        color: black;
+          font-family: Merriweather , display;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: black;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }

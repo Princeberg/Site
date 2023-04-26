@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+.info
+{
+  text-align: center;
+  margin-top: 50px;
+  text-decoration-style: none;
+  text-align-last: center;
+  font-size: 15px;
+}
+img{
+  weight: 90px;
+  height: 300px;
+  margin-left: 450px;
+  margin-top: 40px;
+}
+footer
+{
+  height: 20px;
+  width: 100%;
+  background-color:black ;
+  margin-top: 85px;
+  color: white;
+}
+.Adresse{
+  text-align: center;
+  margin-bottom: 90px;
+  margin-left: 80px;
+  font-size: 13px;
+}
+.Adresse a:hover {
+  background-color: green;
+  font-size: 15px;
+}
+a{
+  color: white;
+  margin-top: 100px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+a:hover{
+background-color: green;
+font-size: 30px;
+}
